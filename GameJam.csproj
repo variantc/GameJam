@@ -289,6 +289,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CardUI.cs" />
+    <Compile Include="Assets\Draggable.cs" />
+    <Compile Include="Assets\DropZone.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />
     <Compile Include="Assets\Scripts\CardList.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
