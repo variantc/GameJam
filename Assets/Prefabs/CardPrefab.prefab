@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 114235300785116974}
   - component: {fileID: 114798286558349412}
   - component: {fileID: 114696144906987334}
+  - component: {fileID: 225108957830248610}
   m_Layer: 5
   m_Name: CardPrefab
   m_TagString: Untagged
@@ -459,7 +460,7 @@ RectTransform:
   m_GameObject: {fileID: 1646631035158644}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.66, y: 0.66, z: 1}
   m_Children:
   - {fileID: 224443582237777544}
   - {fileID: 224216522971653324}
@@ -510,3 +511,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 1}
+--- !u!225 &225108957830248610
+CanvasGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1646631035158644}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
